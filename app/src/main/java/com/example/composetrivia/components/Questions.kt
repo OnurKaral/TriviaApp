@@ -68,8 +68,7 @@ fun QuestionDisplay(question: QuestionItem,
 
     val pathEffect = PathEffect.dashPathEffect(floatArrayOf(10f, 10f), 0f)
     Surface(modifier = Modifier
-        .fillMaxSize()
-        .padding(4.dp),
+        .fillMaxSize(),
         color =  MaterialTheme.colors.primaryVariant) {
 
         Column(modifier = Modifier.padding(12.dp),

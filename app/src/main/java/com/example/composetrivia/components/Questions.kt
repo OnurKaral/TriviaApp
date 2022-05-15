@@ -114,7 +114,7 @@ fun QuestionDisplay(question: QuestionItem,
                     Row(
                         modifier = Modifier
                             .padding(3.dp)
-                            .fillMaxWidth(0.5f)
+                            .fillMaxWidth()
                             .height(45.dp)
                             .border(
                                 width = 4.dp, brush = Brush.linearGradient(
